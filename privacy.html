@@ -124,7 +124,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: May 8, 2026</p>
+        <p class="last-updated">Last Updated: July 25, 2026</p>
 
         <h2>Introduction</h2>
         <p>Swoof ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
@@ -135,8 +135,9 @@
 
         <h3>1.1 Information You Provide</h3>
         <ul>
-            <li><strong>Sorting Decisions:</strong> Which photos you keep, trash, or add to albums — stored locally on
-                your device, never transmitted to our servers</li>
+            <li><strong>Sorting Decisions:</strong> Which photos you keep, trash, or add to albums — stored locally and
+                synchronized through your private iCloud database so your Swoof activity can stay consistent across
+                your devices</li>
             <li><strong>User Preferences:</strong> App settings, pinned albums, language preferences, subscription status
             </li>
         </ul>
@@ -158,7 +159,10 @@
                 <li>✅ Duplicate detection, trip detection, and quality analysis run entirely on your device</li>
                 <li>✅ Deletions go through the standard iOS Photos "Recently Deleted" flow — fully reversible for 30 days
                 </li>
-                <li>⚠️ Apple may process photo metadata according to its own privacy policy</li>
+                <li>⚠️ Swoof may synchronize identifiers and sorting activity through your private iCloud database,
+                    but it does not upload the photo or video files themselves</li>
+                <li>⚠️ Apple may process photo metadata and private iCloud sync data according to its own privacy
+                    policy</li>
             </ul>
         </div>
 
@@ -216,12 +220,16 @@
 
         <h2>5. Data Storage and Security</h2>
 
-        <h3>Local Storage</h3>
+        <h3>Local Storage and Private iCloud Sync</h3>
         <ul>
             <li>Sorting history, trashed-photo buffer, settings, and precomputed recommendations are stored locally on
                 your device via SwiftData</li>
-            <li>This data is NOT synchronized to cloud servers</li>
-            <li>You can delete this data by uninstalling the App</li>
+            <li>Sorting events, session state, and pinned-album selections may be synchronized through Apple's
+                CloudKit in your private iCloud database</li>
+            <li>Photo and video files are not uploaded by Swoof; synchronized records use identifiers and sorting
+                metadata needed to keep app state consistent</li>
+            <li>You can remove local data by uninstalling the App. Private iCloud records remain subject to your
+                iCloud account settings and Apple's retention controls</li>
         </ul>
 
         <h3>Security Measures</h3>
@@ -288,7 +296,7 @@
         <div class="contact-info">
             <h2>11. Contact Us</h2>
             <p>If you have questions about this Privacy Policy, please contact us:</p>
-            <p><strong>Email:</strong> <a href="mailto:galkin1928@gmail.com">galkin1928@gmail.com</a></p>
+            <p><strong>Email:</strong> <a href="mailto:galkin1930@gmail.com">galkin1930@gmail.com</a></p>
             <p><strong>App:</strong> Swoof</p>
             <p><strong>Developer:</strong> Aleksandr Galkin</p>
         </div>
